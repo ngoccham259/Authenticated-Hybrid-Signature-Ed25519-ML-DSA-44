@@ -33,6 +33,8 @@ date-released: "2026-09-24"
 
 repository-code: "https://github.com/ngoccham259/Authenticated-Hybrid-Signature-Ed25519-ML-DSA-44.git"
 
+doi: "10.5281/zenodo.22937360"
+
 keywords:
   - "Post-Quantum Cryptography"
   - "Hybrid Signature"
