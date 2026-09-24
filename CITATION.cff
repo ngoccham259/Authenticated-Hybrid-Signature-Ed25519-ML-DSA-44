@@ -31,7 +31,7 @@ version: "1.0.0"
 
 date-released: "2026-09-24"
 
-repository-code: "https://github.com/Tihocito/Hybrid_Digital_Signature_System_Combining_Ed25519_And_ML_DSA_44"
+repository-code: "https://github.com/ngoccham259/Authenticated-Hybrid-Signature-Ed25519-ML-DSA-44.git"
 
 keywords:
   - "Post-Quantum Cryptography"
