@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+
+title: "Authenticated Context-Bound Hybrid Signature Framework Combining Ed25519 and ML-DSA-44"
+
+message: "If you use this software, please cite this software and the associated research work."
+
+type: software
+
+authors:
+  - family-names: "Do"
+    given-names: "Le Phe"
+    affiliation: "Faculty of Information Technology, Thang Long University, Hanoi, Vietnam"
+
+  - family-names: "Nguyen"
+    given-names: "Thi Ngoc Cham"
+    affiliation: "Faculty of Information Technology, Thang Long University, Hanoi, Vietnam"
+
+  - family-names: "Bui"
+    given-names: "Duc Manh"
+    affiliation: "Faculty of Information Technology, Thang Long University, Hanoi, Vietnam"
+
+  - family-names: "Nguyen"
+    given-names: "Ngoc Tu"
+    affiliation: "Faculty of Information Technology, Thang Long University, Hanoi, Vietnam"
+
+  - family-names: "Le"
+    given-names: "Nguyen Tung Duong"
+    affiliation: "Faculty of Information Technology, Thang Long University, Hanoi, Vietnam"
+
+version: "1.0.0"
+
+date-released: "2026-09-24"
+
+repository-code: "https://github.com/ngoccham259/Authenticated-Hybrid-Signature-Ed25519-ML-DSA-44.git"
+
+keywords:
+  - "Post-Quantum Cryptography"
+  - "Hybrid Signature"
+  - "Ed25519"
+  - "ML-DSA-44"
+  - "FIPS 204"
+  - "Canonical Encoding"
+  - "Key Binding"
+  - "Digital Signature"
+  - "Cryptography"
+
+abstract: >
+  Source code and experimental benchmark artifacts for an authenticated
+  context-bound hybrid digital signature framework combining Ed25519 and
+  ML-DSA-44. The software evaluates Ed25519, ML-DSA-44, and the hybrid
+  configuration using binary datasets of 1 KB, 1 MB, 100 MB, and 1 GB.
+  Each measurement is repeated 100 times. The benchmark measures key
+  generation time, signing time, verification time, peak memory usage,
+  signature size, and signing throughput. For the hybrid configuration,
+  Ed25519 and ML-DSA-44 signatures are generated for the same input and
+  combined using an AND-based verification policy. Raw measurements and
+  aggregated results are exported to CSV files for reproducibility.
